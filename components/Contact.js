@@ -3,21 +3,28 @@ import { FaRegCopyright } from "react-icons/fa6";
 
 export default function Contact() {
     return (
-        <section id="contact" className="h-auto bg-white-700 border-t-[1px] border-black">
+        <section id="contact" className="h-[520px] bg-white-700 border-t-[1px] border-black">
 
-            <h2 className="flex justify-center  text-[25px] m-auto">Contact Me</h2>
-            <div className="flex justify-between pb-48">
+            <h2 className="flex justify-center pt-5 text-[25px] m-auto">Contact Me</h2>
+            <div className="grid place-content-center w-full gap-y-10 h-96">
                 <div className="flex gap-3 m-auto">
-                    <HiMap className="m-auto" />
+                    <HiMap className="m-auto text-[25px]" />
                     <div>
                         <h3>Location</h3>
-                        <p>Nairobi, Kenya</p>
+                        <p>Based in Nairobi, Kenya</p>
                     </div>
                 </div>
                 <div className="flex gap-3 m-auto">
-                    <HiChatBubbleLeft className="m-auto" />
+                    <HiMap className="m-auto text-[25px]" />
                     <div>
-                        <h3>Send mail To:</h3>
+                        <h3>Phone</h3>
+                        <p>+254-(0)-713494521</p>
+                    </div>
+                </div>
+                <div className="flex gap-3 m-auto">
+                    <HiChatBubbleLeft className="m-auto text-[25px]" />
+                    <div>
+                        <h3>Email</h3>
                         <p>johndoe@gmail.com</p>
                     </div>
                 </div>

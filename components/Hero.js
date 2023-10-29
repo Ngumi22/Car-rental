@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6"
 
 export default function Hero() {
     return (
-        <section className="flex justify-between h-[90vh]" id="home">
+        <section className="flex justify-between h-[90vh] sm:px-5" id="home">
             <div className='m-auto'>
 
                 <p className='text-[20px]'>Hi, I'm Peter Mwaura. </p>
@@ -24,7 +24,7 @@ export default function Hero() {
                     </Link>
                 </div>
             </div>
-            <div className='m-auto'>
+            <div className='m-auto hidden sm:block'>
                 <Image
                     src="/logo.png"
                     width={400}

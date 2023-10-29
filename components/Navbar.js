@@ -7,7 +7,7 @@ export default function Navbar() {
 
     return (
 
-        <nav className="flex items-center justify-between p-6 px-5 shadow-sm border-b-[1px] fixed w-full bg-opacity-100">
+        <nav className="flex items-center justify-between p-6 px-5 shadow-sm border-b-[1px] fixed w-full bg-green-700 opacity-100">
 
             <div>
                 <Link>
